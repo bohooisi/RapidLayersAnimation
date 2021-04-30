@@ -10,17 +10,18 @@
 
 body {
     margin: 0;
-    --color-text: #644B47;
-    --color-bg: #0F0E0E;
+    --color-text: #b38f00;
+    --text-align: center;
+    --color-bg: #4b002d;
     --color-link: #fff;
-    --color-link-hover: #3d3637;
+    --color-link-hover: #e4cb09;
     color: var(--color-text);
     background-color: var(--color-bg);
     font-family: soleil, sans-serif;
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	/* Cursor styles */
-	--cursor-stroke: #644B47;
+	--cursor-stroke: #e2ea4a;
 	--cursor-fill: none;
 	--cursor-stroke-width: 1px;
 }
@@ -213,12 +214,12 @@ a:focus {
 
 .menu__item--current {
 	--color-title: #fff;
-    --color-subtitle: #644B47;
+    --color-subtitle: #ffaaf5;
     --title-font-style: italic;
-    --title-font-weight: 900;
+    --title-font-weight: 950;
     cursor: pointer;
 	--title-display: block;
-	--title-font-size: 9vw;
+	--title-font-size: 15vw;
 }
 
 .intro .menu__item--current::before {                
